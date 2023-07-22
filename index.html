@@ -38,7 +38,7 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm md:flex md:justify-centewr dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            class="menu menu-sm md:flex md:justify-center dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>Home</a></li>
                             <li><a>Shop</a></li>
                             <li><a>News</a></li>
@@ -64,14 +64,14 @@
 
     <main>
         <!-- slider section  -->
-        <div class="carousel bg-orange-50 w-full lg:py-20 lg:px-25 flex items-center justify-center">
+        <div class="carousel w-full py-10 md:py-15 lg:py-20 lg:px-25 ">
             <div id="item1"
-                class="carousel-item w-full flex flex-col justify-center items-center  md:justify-around md:items-center lg:flex-row lg:justify-around lg:items-center ">
+                class="carousel-item w-full flex flex-col justify-around items-center md:justify-around md:items-center lg:flex-row lg:justify-around lg:items-center ">
                 <div>
                     <h3 class="pb-5 text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h3>
                     <p class="pb-5">Amet minim mollit non deserunt ullamco <br>
                         est sit aliqua dolor do amet sint. <br> Velit officia consequat <br> duis enim velit mollit.</p>
-                    <button class="btn btn-error text-white">Purchse</button>
+                    <button class="btn btn-error text-white">Purchase</button>
                 </div>
                 <div>
                     <img src="./images/slider/bike1.png" class="w-3/4 md:w-full lg:full" />
@@ -89,7 +89,7 @@
 
         <!-- featured-section  -->
         <div class="text-center my-20 md:my-30 lg:my-40 space-y-5">
-            <h1 class="text-5xl font-semibold">Fetured Bikes In This Year</h1>
+            <h1 class="text-5xl font-semibold">Featured Bikes In This Year</h1>
             <p class="text-xl font-semibold">Best bike collection</p>
             <div
                 class=" gap-10 flex flex-col items-center justify-center md:flexcol md:items-center md:justify-center lg:flex-row ">
@@ -102,19 +102,21 @@
 
         <!-- latest bikes -->
 
-        <div class=" space-y-5 my-30 md:my-40 lg:my-50 ">
+        <div class="bg-orange-50 space-y-5 py-30 md:py-40 lg:py-50 my-30 md:my-40 lg:my-50 ">
             <h1 class="text-5xl font-semibold text-center">Latest Bikes</h1>
-            <div class="cards gap-10 md:gap-15 lg:gap-20 flex flex-col items-center md:flex-wrap md:items-center lg:flex-row lg:items-center lg:justify-center">
+            <div
+                class="cards gap-10 md:gap-15 lg:gap-20 flex flex-col items-center md:flex-wrap md:items-center lg:flex-row lg:items-center lg:justify-center">
                 <div>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
-                            <img src="/images/others/latest1.png" alt="Shoes" class="rounded-xl" />
+                            <img src="./images/others/latest1.png" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
                             <div class="card-actions">
-                                <button class="btn btn-error text-white">Read More</button>
+                                <button class="btn btn-outline btn-error text-white">Error</button>
                             </div>
                         </div>
                     </div>
@@ -122,13 +124,14 @@
                 <div>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
-                            <img src="/images/others/latest2.png" alt="Shoes" class="rounded-xl" />
+                            <img src="./images/others/latest2.png" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Motorcycles & Scooters</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
                             <div class="card-actions">
-                                <button class="btn btn-error text-white">Read More</button>
+                                <button class="btn btn-outline btn-error text-white">Error</button>
                             </div>
                         </div>
                     </div>
@@ -136,20 +139,77 @@
                 <div>
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
-                            <img src="/images/others/latest3.png" alt="Shoes" class="rounded-xl" />
+                            <img src="./images/others/latest3.png" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">2021 Honda CBR500R</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
                             <div class="card-actions">
-                                <button class="btn btn-error text-white">Read More</button>
+                                <button class="btn btn-outline btn-error text-white">Error</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
+        <!-- happy clients section -->
+
+        <div class="space-y-16 my-20 text-center">
+            <p class="text-5xl font-semibold">Happy <span class="text-orange-500">Clients Says</span></p>
+            <div class=" space-y-4 gap-5 flex flex-col items-center justify-center md:flex-wrap lg:flex-row ">
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure><img class="w-1/2" src="./images/others/user-1.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center">
+                        <p class="text-[#6C6C6C]">Slate helps you see how many more days you need to work to reach your
+                            financial goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"checked/>
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-xl">Regina Miles</p>
+                        <p class="text-l">Banker</p>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure><img class="w-1/2" src="./images/others/user-2.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center">
+                        <p class="text-[#6C6C6C]">Slate helps you see how many more days you need to work to reach your
+                            financial goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-xl">Regina Miles</p>
+                        <p class="text-l">Banker</p>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure><img class="w-1/2" src="./images//others/user-3.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center">
+                        <p class="text-[#6C6C6C]">Slate helps you see how many more days you need to work to reach your
+                            financial goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-xl">Regina Miles</p>
+                        <p class="text-l">Banker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </main>
 
