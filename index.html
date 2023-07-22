@@ -63,19 +63,22 @@
     </header>
 
     <main>
-        <div class="carousel w-full my-20">
-            <div id="item1" class="carousel-item w-full  lg:flex lg:justify-around lg:items-center ">
+        <!-- slider section  -->
+        <div class="carousel bg-orange-50 w-full lg:py-20 lg:px-25 flex items-center justify-center">
+            <div id="item1"
+                class="carousel-item w-full flex flex-col justify-center items-center  md:justify-around md:items-center lg:flex-row lg:justify-around lg:items-center ">
                 <div>
                     <h3 class="pb-5 text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h3>
                     <p class="pb-5">Amet minim mollit non deserunt ullamco <br>
-                        est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
+                        est sit aliqua dolor do amet sint. <br> Velit officia consequat <br> duis enim velit mollit.</p>
                     <button class="btn btn-error text-white">Purchse</button>
                 </div>
                 <div>
-                    <img src="./images/slider/bike1.png" class="w-full" />
+                    <img src="./images/slider/bike1.png" class="w-3/4 md:w-full lg:full" />
                 </div>
             </div>
-            
+
+
         </div>
         <div class="flex justify-center w-full py-2 gap-2">
             <a href="#item1" class="btn btn-xs">1</a>
@@ -83,6 +86,71 @@
             <a href="#item3" class="btn btn-xs">3</a>
             <a href="#item4" class="btn btn-xs">4</a>
         </div>
+
+        <!-- featured-section  -->
+        <div class="text-center my-20 md:my-30 lg:my-40 space-y-5">
+            <h1 class="text-5xl font-semibold">Fetured Bikes In This Year</h1>
+            <p class="text-xl font-semibold">Best bike collection</p>
+            <div
+                class=" gap-10 flex flex-col items-center justify-center md:flexcol md:items-center md:justify-center lg:flex-row ">
+                <img src="./images/others/feature-bike.png" alt="">
+                <img src="./images/others/feature-bike.png" alt="">
+                <img src="./images/others/feature-bike.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- latest bikes -->
+
+        <div class=" space-y-5 my-30 md:my-40 lg:my-50 ">
+            <h1 class="text-5xl font-semibold text-center">Latest Bikes</h1>
+            <div class="cards gap-10 md:gap-15 lg:gap-20 flex flex-col items-center md:flex-wrap md:items-center lg:flex-row lg:items-center lg:justify-center">
+                <div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="/images/others/latest1.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <div class="card-actions">
+                                <button class="btn btn-error text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="/images/others/latest2.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Motorcycles & Scooters</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <div class="card-actions">
+                                <button class="btn btn-error text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                            <img src="/images/others/latest3.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">2021 Honda CBR500R</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <div class="card-actions">
+                                <button class="btn btn-error text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
     </main>
 
     <footer>
